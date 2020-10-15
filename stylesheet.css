@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800&display=swap');
+/* font-family: 'Roboto Slab', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Norican&display=swap');
+/* font-family: 'Norican', cursive; */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(19, 19, 19);
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navlogo {
+    padding: 25px 30px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.navlogo a {
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+}
+.navlogo a:hover {
+    color: rgba(255, 255, 255, 0.7);
+}
+.navlist  {
+    display: flex;
+    list-style: none;
+    padding-right: 18px;
+}
+.navitem {
+    padding: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.navitem a {
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+}
+.navitem a:hover {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+.hamBtn {
+    display: none;
+    cursor: pointer;
+    padding-right: 30px;
+}
+.bar1, .bar2, .bar3 {
+    width: 30px;
+    height: 3px;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 5px 0;
+}
+.overlay-navbar {
+    height: 0;
+    width: 100%;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0); /* Black fallback color */
+    background-color: rgba(0,0,0); /* Black w/opacity */
+    overflow-y: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+  }
+.overlay-navlist {
+    position: relative;
+    top: 35%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+  }
+  
+  /* The navigation links inside the overlay */
+.overlay-navbar a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: 500;
+    color: #818181;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+.overlay-navbar a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  /* Position the close button (top right corner) */
+.overlay-navbar .closebtn {
+    position: absolute;
+    right: 20px;
+    font-size: 60px;
+    font-weight: 400;
+  }
+.article {
+    padding: 50px 20% 0px 20%;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 400;
+}
+
+.a {
+    color: rgba(255, 255, 255, 0.9);
+}
+.a:hover {
+    color: rgba(255, 255, 255, 0.7);
+}
+.title {
+    padding-bottom: 10px;
+}
+b {
+    padding-right: 10px;
+}
+.overlay-navlist :nth-child(3) {
+    display: none;
+}
+.overlay-navlist :nth-child(4) {
+    display: none;
+}
+.overlay-navlist :nth-child(6) {
+    display: none;
+}
+.overlay-navlist :nth-child(7) {
+    display: none;
+}
+.navlist :nth-child(2) {
+    display: none;
+}
+.navlist :nth-child(3) {
+    display: none;
+}
+.navlist :nth-child(5) {
+    display: none;
+}
+.navlist :nth-child(6) {
+    display: none;
+}
+.footer {
+    font-family: 'Norican', cursive;
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    bottom: 10px;
+    left: 0;
+    position: fixed;
+    width: 100%;
+}
+@media only screen and (max-width: 1000px) {
+    .article {
+        padding: 40px 7% 0px 7%;
+    }
+}
+@media only screen and (max-width: 560px) {
+    .navlist {
+        display: none;
+    }
+    .hamBtn {
+        display: inline-block;
+    }
+    .navlogo {
+        font-size: 15px;
+    }
+    .overlay-navbar a {
+        font-size: 25px;
+    }
+    .article {
+        padding: 30px 7% 0px 7%;
+    }
+}
