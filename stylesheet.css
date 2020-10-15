@@ -127,18 +127,6 @@ body {
 b {
     padding-right: 10px;
 }
-.footer {
-    font-family: 'Norican', cursive;
-    color: rgba(255, 255, 255, 0.9);
-    text-align: center;
-    font-weight: 500;
-    font-size: 20px;
-    bottom: 10px;
-    left: 0;
-    position: fixed;
-    width: 100%;
-    display: none;
-}
 @media only screen and (max-width: 1000px) {
     .article {
         padding: 40px 7% 0px 7%;
