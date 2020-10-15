@@ -6,6 +6,8 @@
 /* font-family: 'Poppins', sans-serif; */
 /* @import url('https://fonts.googleapis.com/css2?family=Norican&display=swap'); */
 /* font-family: 'Norican', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Kumar+One+Outline&display=swap');
+/* font-family: 'Kumar One Outline', cursive; */
 
 * {
     margin: 0;
@@ -21,7 +23,7 @@ body {
 }
 .navlogo {
     padding: 25px 30px;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Kumar One Outline', cursive;
     font-size: 20px;
     text-transform: uppercase;
 }
