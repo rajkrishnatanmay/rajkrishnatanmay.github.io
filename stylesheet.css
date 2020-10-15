@@ -144,18 +144,18 @@ b {
     }
 }
 @media only screen and (max-width: 560px) {
-    .navlist {
+/*     .navlist {
         display: none;
     }
     .hamBtn {
         display: inline-block;
-    }
+    } */
     .navlogo {
         font-size: 15px;
     }
-    .overlay-navbar a {
+/*     .overlay-navbar a {
         font-size: 25px;
-    }
+    } */
     .article {
         padding: 30px 7% 0px 7%;
     }
