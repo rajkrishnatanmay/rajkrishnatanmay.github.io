@@ -20,6 +20,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: white;
 }
 .navlogo {
     padding: 25px 30px;
@@ -28,11 +29,11 @@ body {
     text-transform: uppercase;
 }
 .navlogo a {
-    color: rgba(255, 255, 255, 0.9);
+    color: black;
     text-decoration: none;
 }
 .navlogo a:hover {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(0, 0, 0, 0.5);
 }
 .navlist  {
     display: flex;
@@ -47,11 +48,11 @@ body {
     text-transform: uppercase;
 }
 .navitem a {
-    color: rgba(255, 255, 255, 0.9);
+    color: black;
     text-decoration: none;
 }
 .navitem a:hover {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(0, 0, 0, 0.5);
     text-decoration: none;
 }
 .hamBtn {
@@ -136,7 +137,7 @@ b {
 }
 @media only screen and (max-width: 560px) {
     .navlogo {
-        font-size: 12px;
+        font-size: 14px;
     }
 /*     .overlay-navbar a {
         font-size: 25px;
