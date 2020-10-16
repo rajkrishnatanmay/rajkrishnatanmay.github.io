@@ -136,7 +136,7 @@ b {
 }
 @media only screen and (max-width: 560px) {
     .navlogo {
-        font-size: 15px;
+        font-size: 12px;
     }
 /*     .overlay-navbar a {
         font-size: 25px;
